@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tag Form</title>
+</head>
+<body>
+    <h1>HTML Tag untuk Formulir</h1>
+    <form action="/path">
+        <fieldset>
+            <legend>Formulir Calon Pegawai</legend><br>
+            <label for="name">Nama : </label>
+            <input type="text" name="name"/><br><br>
+            <label for="address">Alamat : </label>
+            <input type="text" name="address" /><br><br>
+            <label for="password">Password : </label>          
+            <input type="password" name="password"><br><br>
+            <label for="gender">Jenis Kelamin : </label>
+            <input type="radio" name="radio"/> Laki-laki</b>
+            <input type="radio" name="radio"/> perempuan</b><br><br>
+            <label for="keahlian">Bahasa Pemrograman yang dikuasai : </label>
+            <input type="checkbox" name="checkbox"/> Web</b>
+            <input type="checkbox" name="checkbox"/> MOBILE</b>
+            <input type="checkbox" name="checkbox"/> DESKTOP</b><br><br>
+            <label for="asal">Kota asal : </label>
+            <select>
+                <option value="Bitung">Bitung</option>
+                <option value="Manado">Manado</option>
+                <option value="Tondano">Tondano</option>
+            </select>
+            <br>
+            <br>
+            <label for="pernyataan">Apa yang Membuat Kami harus memilih Anda?: </label><br>
+            <textarea cols="50" rows="5" placeholder="Tulis komertar anda disini . . ."></textarea><br><br>
+            <button>Proses</button><br><br>
+        </fieldset>
+    </form>
+</body>
+</html>
