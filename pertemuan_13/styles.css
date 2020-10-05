@@ -1,0 +1,20 @@
+.one{
+    display: block;    
+    background-color: lightskyblue;
+    padding: 20px;
+    border: 20px solid red;
+}
+.two{
+    display: block;
+    background-color: lightskyblue;
+    padding: 20px;
+    border: 20px solid red;
+    margin: 0 200px;
+}
+.three{
+    display: block;
+    background-color: lightskyblue;
+    padding: 20px;
+    border: 20px solid red;
+    margin: 0 400px;
+}
