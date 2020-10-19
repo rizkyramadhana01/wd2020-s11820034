@@ -1,0 +1,22 @@
+body{
+    font-family: "Helvertica Neue", Helvetica, Arial, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+h1{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 50px;
+    width: 50%;
+    margin: 0 auto;
+}
+/*Saya menggunakan pixel agar header 1 tetap konsisten pada ukuran 
+yang sudah ditentukan*/
+p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 2rem;
+    width: 50%;
+    margin: 0 auto;
+}
+/* Saya memilih menggunakan rem saja sir agar ukuran font yang ditentukan
+sudah fix dan tidak akan terakumulasi dari font size body atau dari parent, 
+namun font size ini dapat mengikuti setting font size dari browser*/
