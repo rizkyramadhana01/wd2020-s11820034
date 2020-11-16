@@ -129,7 +129,7 @@ function bmi(){
             console.log("BMI " + hasil + " = Morbidly Obese");
             break;
         default:
-            console.log("Tidak ada");
+            console.log("Tidak ada Range");
             break;
     }
 }
